@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Donor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>Donor Registration</h2>
+
+    <form id="donorForm">
+        <input id="name" placeholder="Full Name" required>
+        <input id="age" type="number" placeholder="Age" required>
+
+        <select id="gender">
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+
+        <select id="blood">
+            <option>A+</option><option>A-</option>
+            <option>B+</option><option>B-</option>
+            <option>O+</option><option>O-</option>
+            <option>AB+</option><option>AB-</option>
+        </select>
+
+        <input id="phone" placeholder="Phone Number" required>
+        <input id="city" placeholder="City" required>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <a href="index.html" class="link">⬅ Back to Home</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

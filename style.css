@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to right, #b31217, #e52d27);
+    font-family: Arial;
+    color: #333;
+}
+
+.card {
+    background: white;
+    width: 350px;
+    padding: 25px;
+    margin: 80px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card.wide {
+    width: 80%;
+}
+
+h1, h2 {
+    color: #b31217;
+}
+
+input, select, button {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button {
+    background: #b31217;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #e52d27;
+}
+
+.btn {
+    display: block;
+    background: #b31217;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn.admin {
+    background: #333;
+}
+
+.link {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background: #b31217;
+    color: white;
+}
+
+.delete {
+    background: red;
+    padding: 5px 10px;
+}

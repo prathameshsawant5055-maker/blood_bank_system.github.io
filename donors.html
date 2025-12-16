@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Available Donors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card wide">
+    <h2>Available Donors</h2>
+
+    <select id="filterBlood" onchange="filterDonors()">
+        <option value="">All Blood Groups</option>
+        <option>A+</option><option>A-</option>
+        <option>B+</option><option>B-</option>
+        <option>O+</option><option>O-</option>
+        <option>AB+</option><option>AB-</option>
+    </select>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Blood</th>
+                <th>Phone</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody id="donorList"></tbody>
+    </table>
+
+    <a href="index.html" class="link">⬅ Back to Home</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
